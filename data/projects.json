@@ -1,0 +1,4019 @@
+{
+ "generated_at": "2026-10-20T19:29:40+00:00",
+ "rules_version": 1,
+ "x_snapshot_as_of": "2026-10-20T19:27:00Z",
+ "projects": [
+  {
+   "name": "LeekWallet",
+   "hackathon": "ETHOnline 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-16",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "Wallets/UX",
+   "source_url": "https://x.com/ETHGlobal/status/2100256707117265073",
+   "listing_url": "https://ethglobal.com/showcase/leekdiyhardwarewalet-5qssg",
+   "website": "https://leekwallet.0xoucanproject.xyz",
+   "repo": "https://github.com/0xOucan/LeekWallet",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/0xOucan/LeekWallet",
+    "website": "https://leekwallet.0xoucanproject.xyz/"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 34,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/0xOucan/LeekWallet",
+     "last_commit": "2026-10-20T00:57:22+00:00",
+     "first_commit": "2026-08-12T21:10:34+00:00",
+     "commits_total": 696,
+     "commits_after_demo": 156,
+     "commits_last_30d": 70,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 122
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://leekwallet.0xoucanproject.xyz",
+     "http": 200,
+     "final_url": "https://leekwallet.0xoucanproject.xyz"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "active",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 34,
+    "event": 0
+   }
+  },
+  {
+   "name": "Novi Corpus",
+   "hackathon": "ETHOnline 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-16",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "AI agents",
+   "source_url": "https://x.com/ETHGlobal/status/2100256723256918163",
+   "listing_url": "https://ethglobal.com/showcase/novi-corpus-qtfxd",
+   "website": "https://novicorpus.com",
+   "repo": "https://github.com/jb1011/Project-Alpha",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/jb1011/Project-Alpha",
+    "website": "https://www.novicorpus.com"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 34,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/jb1011/Project-Alpha",
+     "last_commit": "2026-10-20T11:36:55+00:00",
+     "first_commit": "2026-06-23T11:55:32+00:00",
+     "commits_total": 326,
+     "commits_after_demo": 53,
+     "commits_last_30d": 36,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 47
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://novicorpus.com",
+     "http": 200,
+     "final_url": "https://www.novicorpus.com/"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "active",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 34,
+    "event": 0
+   }
+  },
+  {
+   "name": "TARE",
+   "hackathon": "ETHOnline 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-16",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "DeFi/trading",
+   "source_url": "https://x.com/ETHGlobal/status/2100256739467939959",
+   "listing_url": "https://ethglobal.com/showcase/tare-ozced",
+   "website": "https://tare-hooks.tech",
+   "repo": "https://github.com/JeanBaptisteDurand/ETH_Online_2026",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/JeanBaptisteDurand/ETH_Online_2026",
+    "website": "https://tare-hooks.tech"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 34,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/JeanBaptisteDurand/ETH_Online_2026",
+     "last_commit": "2026-09-16T10:57:58+00:00",
+     "first_commit": "2026-09-04T22:34:34+00:00",
+     "commits_total": 189,
+     "commits_after_demo": 1,
+     "commits_last_30d": 0,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 1
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "down",
+     "url": "https://tare-hooks.tech",
+     "http": null,
+     "note": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "recent",
+   "status_reason": "Last public activity 31-90 days ago",
+   "checkpoints": {
+    "30": "active",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 30,
+    "event": 1
+   }
+  },
+  {
+   "name": "OpenBook",
+   "hackathon": "ETHOnline 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-16",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "AI agents",
+   "source_url": "https://x.com/ETHGlobal/status/2100256756324807021",
+   "listing_url": "https://ethglobal.com/showcase/openbook-8ngw6",
+   "website": "https://openbook.litai.ca",
+   "repo": "https://github.com/Aliserag/OpenBook",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/Aliserag/OpenBook",
+    "website": "https://openbook.litai.ca/"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 34,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/Aliserag/OpenBook",
+     "last_commit": "2026-09-20T21:59:51+00:00",
+     "first_commit": "2026-09-09T21:15:46+00:00",
+     "commits_total": 237,
+     "commits_after_demo": 4,
+     "commits_last_30d": 4,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 4
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://openbook.litai.ca",
+     "http": 200,
+     "final_url": "https://openbook.litai.ca"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "active",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 34,
+    "event": 0
+   }
+  },
+  {
+   "name": "Cordon",
+   "hackathon": "ETHOnline 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-16",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "AI agents",
+   "source_url": "https://x.com/ETHGlobal/status/2100256772586082540",
+   "listing_url": "https://ethglobal.com/showcase/cordon-vw3kh",
+   "website": "https://getcordon.xyz",
+   "repo": "https://github.com/youvandra/cordon",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/youvandra/cordon",
+    "website": "https://getcordon.xyz"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 34,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/youvandra/cordon",
+     "last_commit": "2026-09-26T22:21:38+00:00",
+     "first_commit": "2026-09-07T22:57:27+00:00",
+     "commits_total": 371,
+     "commits_after_demo": 127,
+     "commits_last_30d": 127,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 127
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://getcordon.xyz",
+     "http": 200,
+     "final_url": "https://getcordon.xyz"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "active",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 34,
+    "event": 0
+   }
+  },
+  {
+   "name": "Petri",
+   "hackathon": "ETHOnline 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-16",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "AI agents",
+   "source_url": "https://x.com/ETHGlobal/status/2100256789203956159",
+   "listing_url": "https://ethglobal.com/showcase/petri-mjy1y",
+   "website": "https://ethonline2026-two.vercel.app",
+   "repo": "https://github.com/Avoisavo/ethonline2026",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/Avoisavo/ethonline2026",
+    "website": "https://ethonline2026-two.vercel.app/"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 34,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/Avoisavo/ethonline2026",
+     "last_commit": "2026-09-26T03:49:45+00:00",
+     "first_commit": "2026-09-06T11:29:17+00:00",
+     "commits_total": 206,
+     "commits_after_demo": 18,
+     "commits_last_30d": 1,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 18
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://ethonline2026-two.vercel.app",
+     "http": 200,
+     "final_url": "https://ethonline2026-two.vercel.app"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "active",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 34,
+    "event": 0
+   }
+  },
+  {
+   "name": "OnchainRouter",
+   "hackathon": "ETHOnline 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-16",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "AI agents",
+   "source_url": "https://x.com/ETHGlobal/status/2100256805809238301",
+   "listing_url": "https://ethglobal.com/showcase/onchainrouter-8r4jm",
+   "website": "https://onchainrouter.io",
+   "repo": "https://github.com/web3xDev/onchainrouter",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/web3xDev/onchainrouter",
+    "website": "https://onchainrouter.io/"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 34,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/web3xDev/onchainrouter",
+     "last_commit": "2026-09-15T13:25:02+00:00",
+     "first_commit": "2026-09-07T12:03:42+00:00",
+     "commits_total": 175,
+     "commits_after_demo": 0,
+     "commits_last_30d": 0,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 0
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://onchainrouter.io",
+     "http": 200,
+     "final_url": "https://www.onchainrouter.io/"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "recent",
+   "status_reason": "Last public activity 31-90 days ago",
+   "checkpoints": {
+    "30": "no_activity",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 30,
+    "event": 1
+   }
+  },
+  {
+   "name": "ETH Arcade",
+   "hackathon": "ETHOnline 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-16",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "Gaming",
+   "source_url": "https://x.com/ETHGlobal/status/2100256822280208569",
+   "listing_url": "https://ethglobal.com/showcase/eth-arcade-96wyn",
+   "website": "https://etharcade.fun",
+   "repo": "https://github.com/team-somehow/eth-arcade",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/team-somehow/eth-arcade",
+    "website": "https://etharcade.fun/"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 34,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/team-somehow/eth-arcade",
+     "last_commit": "2026-09-13T13:20:07+00:00",
+     "first_commit": "2026-09-06T10:17:20+00:00",
+     "commits_total": 50,
+     "commits_after_demo": 0,
+     "commits_last_30d": 0,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 0
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://etharcade.fun",
+     "http": 200,
+     "final_url": "https://etharcade.fun"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "recent",
+   "status_reason": "Last public activity 31-90 days ago",
+   "checkpoints": {
+    "30": "no_activity",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 30,
+    "event": 1
+   }
+  },
+  {
+   "name": "Takarabako",
+   "hackathon": "ETHGlobal Tokyo 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-27",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "Payments/stablecoins",
+   "source_url": "https://x.com/ETHGlobal/status/2104115888882635138",
+   "listing_url": "https://ethglobal.com/showcase/takarabako-qmgg5",
+   "website": "https://takarabako.bytetrix.tech/",
+   "repo": "https://github.com/AqilJaafree/takarabako",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/AqilJaafree/takarabako",
+    "website": "https://takarabako.bytetrix.tech/"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 23,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/AqilJaafree/takarabako",
+     "last_commit": "2026-09-26T23:51:24+00:00",
+     "first_commit": "2026-09-11T17:37:20+00:00",
+     "commits_total": 120,
+     "commits_after_demo": 0,
+     "commits_last_30d": 105,
+     "windows": {
+      "30": {
+       "reached": false,
+       "commits": 0
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://takarabako.bytetrix.tech/",
+     "http": 200,
+     "final_url": "https://takarabako.bytetrix.tech/login"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "pending",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 23,
+    "event": 0
+   }
+  },
+  {
+   "name": "Patio Station",
+   "hackathon": "ETHGlobal Tokyo 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-27",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "Social/creator",
+   "source_url": "https://x.com/ETHGlobal/status/2104115905257193922",
+   "listing_url": "https://ethglobal.com/showcase/patio-station-17k0a",
+   "website": "https://patiotokyo.vercel.app/",
+   "repo": "https://github.com/victxx/patio",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/victxx/patio",
+    "website": "https://patiotokyo.vercel.app/"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 23,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/victxx/patio",
+     "last_commit": "2024-04-14T09:45:01+00:00",
+     "first_commit": "2024-03-01T19:37:52+00:00",
+     "commits_total": 32,
+     "commits_after_demo": 0,
+     "commits_last_30d": 0,
+     "windows": {
+      "30": {
+       "reached": false,
+       "commits": 0
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://patiotokyo.vercel.app/",
+     "http": 200,
+     "final_url": "https://patiostation.vercel.app/"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "site_only",
+   "status_reason": "Site responds; no commit/post activity in 90 days",
+   "checkpoints": {
+    "30": "pending",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 23,
+    "event": 1
+   }
+  },
+  {
+   "name": "yohaku",
+   "hackathon": "ETHGlobal Tokyo 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-27",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "AI agents",
+   "source_url": "https://x.com/ETHGlobal/status/2104115921430425972",
+   "listing_url": "https://ethglobal.com/showcase/yohaku-m2d72",
+   "website": "https://mac-studio.taila649e1.ts.net/experience?lang=en&view=discover",
+   "repo": "https://github.com/kou-uni/ethglobal-tokyo2026-uni",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/kou-uni/ethglobal-tokyo2026-uni",
+    "website": "https://mac-studio.taila649e1.ts.net/experience?lang=en&amp;view=discover"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 23,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/kou-uni/ethglobal-tokyo2026-uni",
+     "last_commit": "2026-09-26T23:30:52+00:00",
+     "first_commit": "2026-09-25T15:34:21+00:00",
+     "commits_total": 185,
+     "commits_after_demo": 0,
+     "commits_last_30d": 185,
+     "windows": {
+      "30": {
+       "reached": false,
+       "commits": 0
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://mac-studio.taila649e1.ts.net/experience?lang=en&view=discover",
+     "http": 200,
+     "final_url": "https://mac-studio.taila649e1.ts.net/experience?lang=en&view=discover"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "pending",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 23,
+    "event": 0
+   }
+  },
+  {
+   "name": "watermark",
+   "hackathon": "ETHGlobal Tokyo 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-27",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "DeFi/trading",
+   "source_url": "https://x.com/ETHGlobal/status/2104115937490473186",
+   "listing_url": "https://ethglobal.com/showcase/watermark-68230",
+   "website": "https://desk-swart.vercel.app/",
+   "repo": "https://github.com/sdh2222/eth-tokyo",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/sdh2222/eth-tokyo",
+    "website": "https://desk-swart.vercel.app"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 23,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/sdh2222/eth-tokyo",
+     "last_commit": "2026-09-29T20:50:42+00:00",
+     "first_commit": "2026-09-25T11:06:13+00:00",
+     "commits_total": 297,
+     "commits_after_demo": 18,
+     "commits_last_30d": 297,
+     "windows": {
+      "30": {
+       "reached": false,
+       "commits": 18
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://desk-swart.vercel.app/",
+     "http": 200,
+     "final_url": "https://desk-swart.vercel.app/"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "pending",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 23,
+    "event": 0
+   }
+  },
+  {
+   "name": "OddsFlow",
+   "hackathon": "ETHGlobal Tokyo 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-27",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "Prediction markets",
+   "source_url": "https://x.com/ETHGlobal/status/2104115953634291969",
+   "listing_url": "https://ethglobal.com/showcase/oddsflow-fwsnb",
+   "website": "https://oddsflow-teal.vercel.app/",
+   "repo": "https://github.com/salviega/oddsflow",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/salviega/oddsflow",
+    "website": "https://oddsflow-teal.vercel.app"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 23,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/salviega/oddsflow",
+     "last_commit": "2026-09-25T23:17:26+00:00",
+     "first_commit": "2026-09-25T19:30:49+00:00",
+     "commits_total": 53,
+     "commits_after_demo": 0,
+     "commits_last_30d": 53,
+     "windows": {
+      "30": {
+       "reached": false,
+       "commits": 0
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://oddsflow-teal.vercel.app/",
+     "http": 200,
+     "final_url": "https://oddsflow-teal.vercel.app/"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "pending",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 23,
+    "event": 0
+   }
+  },
+  {
+   "name": "Kura",
+   "hackathon": "ETHGlobal Tokyo 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-27",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "RWA/tokenization",
+   "source_url": "https://x.com/ETHGlobal/status/2104115969866211379",
+   "listing_url": "https://ethglobal.com/showcase/kura-so3wx",
+   "website": "https://www.kuravault.xyz/",
+   "repo": "https://github.com/PaoloRollo/kura",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/PaoloRollo/kura",
+    "website": "https://www.kuravault.xyz"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 23,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/PaoloRollo/kura",
+     "last_commit": "2026-09-26T23:52:39+00:00",
+     "first_commit": "2026-09-25T07:48:29+00:00",
+     "commits_total": 298,
+     "commits_after_demo": 0,
+     "commits_last_30d": 298,
+     "windows": {
+      "30": {
+       "reached": false,
+       "commits": 0
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://www.kuravault.xyz/",
+     "http": 200,
+     "final_url": "https://www.kuravault.xyz/"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "pending",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 23,
+    "event": 0
+   }
+  },
+  {
+   "name": "Omamori",
+   "hackathon": "ETHGlobal Tokyo 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-27",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "AI agents",
+   "source_url": "https://x.com/ETHGlobal/status/2104115985947279409",
+   "listing_url": "https://ethglobal.com/showcase/omamoris-rn3nc",
+   "website": "https://omamorisan-site-074960-91-98-199-240.sslip.io/",
+   "repo": "https://github.com/juanmaagd/yakusoku",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/juanmaagd/yakusoku",
+    "website": "https://omamorisan-site-074960-91-98-199-240.sslip.io/"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 23,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/juanmaagd/yakusoku",
+     "last_commit": "2026-09-26T22:52:53+00:00",
+     "first_commit": "2026-09-25T12:08:05+00:00",
+     "commits_total": 171,
+     "commits_after_demo": 0,
+     "commits_last_30d": 171,
+     "windows": {
+      "30": {
+       "reached": false,
+       "commits": 0
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://omamorisan-site-074960-91-98-199-240.sslip.io/",
+     "http": 200,
+     "final_url": "https://omamorisan-site-074960-91-98-199-240.sslip.io/"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "pending",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 23,
+    "event": 0
+   }
+  },
+  {
+   "name": "Enconomy",
+   "hackathon": "ETHGlobal Tokyo 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-09-27",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "Identity/personhood",
+   "source_url": "https://x.com/ETHGlobal/status/2104116002346971579",
+   "listing_url": "https://ethglobal.com/showcase/enconomy-9m8x8",
+   "website": "https://webapp.enconomy.dev/",
+   "repo": "https://github.com/tawago/enconomy",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/tawago/enconomy",
+    "website": "https://webapp.enconomy.dev/"
+   },
+   "link_sources": {
+    "repo": "listing page"
+   },
+   "days_since_demo": 23,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/tawago/enconomy",
+     "last_commit": "2026-09-26T23:56:52+00:00",
+     "first_commit": "2026-09-25T17:52:51+00:00",
+     "commits_total": 85,
+     "commits_after_demo": 0,
+     "commits_last_30d": 85,
+     "windows": {
+      "30": {
+       "reached": false,
+       "commits": 0
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://webapp.enconomy.dev/",
+     "http": 200,
+     "final_url": "https://webapp.enconomy.dev/"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "pending",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 23,
+    "event": 0
+   }
+  },
+  {
+   "name": "Glassbox402",
+   "hackathon": "ETHGlobal Lisbon 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-07-26",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "AI agents",
+   "source_url": "https://x.com/ETHGlobal/status/2081396459216503062",
+   "listing_url": "https://ethglobal.com/showcase/glassbox402-qyepd",
+   "website": "https://youtu.be/yFHJIv2xSRU",
+   "repo": "https://github.com/dhernz/Glassbox402",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/dhernz/Glassbox402",
+    "website": "https://youtu.be/yFHJIv2xSRU"
+   },
+   "link_sources": {
+    "repo": "listing page",
+    "website": "listing page"
+   },
+   "days_since_demo": 86,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/dhernz/Glassbox402",
+     "last_commit": "2026-07-26T04:25:56+00:00",
+     "first_commit": "2026-07-25T08:52:58+00:00",
+     "commits_total": 37,
+     "commits_after_demo": 8,
+     "commits_last_30d": 0,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 8
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://youtu.be/yFHJIv2xSRU",
+     "http": 200,
+     "final_url": "https://www.youtube.com/watch?v=yFHJIv2xSRU&feature=youtu.be"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "recent",
+   "status_reason": "Last public activity 31-90 days ago",
+   "checkpoints": {
+    "30": "active",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 30,
+    "event": 1
+   }
+  },
+  {
+   "name": "Hands Unchained",
+   "hackathon": "ETHGlobal Lisbon 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-07-26",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "DePIN/robotics",
+   "source_url": "https://x.com/ETHGlobal/status/2081396474907398253",
+   "listing_url": "https://ethglobal.com/showcase/hands-unchained-6kdf3",
+   "website": "https://web-production-b5106.up.railway.app",
+   "repo": "https://github.com/grmkris/eth-global-lisbon-2026-hands-unchained",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/grmkris/eth-global-lisbon-2026-hands-unchained",
+    "website": "https://web-production-b5106.up.railway.app"
+   },
+   "link_sources": {
+    "repo": "listing page",
+    "website": "listing page"
+   },
+   "days_since_demo": 86,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/grmkris/eth-global-lisbon-2026-hands-unchained",
+     "last_commit": "2026-10-11T18:19:58+00:00",
+     "first_commit": "2026-07-25T01:38:41+00:00",
+     "commits_total": 105,
+     "commits_after_demo": 20,
+     "commits_last_30d": 1,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 19
+      },
+      "90": {
+       "reached": false,
+       "commits": 1
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "down",
+     "url": "https://web-production-b5106.up.railway.app",
+     "http": 404
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "active",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 86,
+    "event": 0
+   }
+  },
+  {
+   "name": "KOLlateral",
+   "hackathon": "ETHGlobal Lisbon 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-07-26",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "Social/creator",
+   "source_url": "https://x.com/ETHGlobal/status/2081396490577264738",
+   "listing_url": "https://ethglobal.com/showcase/kollateral-ho1d1",
+   "website": "https://kollateral.vercel.app/",
+   "repo": "https://github.com/RomarioKavin1/kollateral",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/RomarioKavin1/kollateral",
+    "website": "https://kollateral.vercel.app/"
+   },
+   "link_sources": {
+    "repo": "listing page",
+    "website": "listing page"
+   },
+   "days_since_demo": 86,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/RomarioKavin1/kollateral",
+     "last_commit": "2026-07-26T07:33:30+00:00",
+     "first_commit": "2026-07-24T23:05:37+00:00",
+     "commits_total": 112,
+     "commits_after_demo": 31,
+     "commits_last_30d": 0,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 31
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://kollateral.vercel.app/",
+     "http": 200,
+     "final_url": "https://kollateral.vercel.app/"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "recent",
+   "status_reason": "Last public activity 31-90 days ago",
+   "checkpoints": {
+    "30": "active",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 30,
+    "event": 1
+   }
+  },
+  {
+   "name": "Happy Hour",
+   "hackathon": "ETHGlobal Lisbon 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-07-26",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "Social/creator",
+   "source_url": "https://x.com/ETHGlobal/status/2081396506968678780",
+   "listing_url": "https://ethglobal.com/showcase/happy-hour-v3o03",
+   "website": "https://testflight.apple.com/join/RKZBgES3",
+   "repo": "https://github.com/myounatan/hour-backend-ethglobal-lisbon-2026",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/myounatan/hour-backend-ethglobal-lisbon-2026",
+    "website": "https://testflight.apple.com/join/RKZBgES3"
+   },
+   "link_sources": {
+    "repo": "listing page",
+    "website": "listing page"
+   },
+   "days_since_demo": 86,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/myounatan/hour-backend-ethglobal-lisbon-2026",
+     "last_commit": "2026-07-25T17:04:46+00:00",
+     "first_commit": "2026-07-24T21:49:18+00:00",
+     "commits_total": 16,
+     "commits_after_demo": 0,
+     "commits_last_30d": 0,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 0
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://testflight.apple.com/join/RKZBgES3",
+     "http": 200,
+     "final_url": "https://testflight.apple.com/join/RKZBgES3"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "recent",
+   "status_reason": "Last public activity 31-90 days ago",
+   "checkpoints": {
+    "30": "no_activity",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 30,
+    "event": 1
+   }
+  },
+  {
+   "name": "Lean Silicon",
+   "hackathon": "ETHGlobal Lisbon 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-07-26",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "Infra/L2/dev tools",
+   "source_url": "https://x.com/ETHGlobal/status/2081396522772840553",
+   "listing_url": "https://ethglobal.com/showcase/lean-silicon-f134z",
+   "website": "https://github.com/lfglabs-dev/lean-silicon",
+   "repo": "https://github.com/lfglabs-dev/lean-silicon",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/lfglabs-dev/lean-silicon",
+    "website": "https://github.com/lfglabs-dev/lean-silicon"
+   },
+   "link_sources": {
+    "repo": "listing page",
+    "website": "listing page"
+   },
+   "days_since_demo": 86,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/lfglabs-dev/lean-silicon",
+     "last_commit": "2026-09-07T19:34:07+00:00",
+     "first_commit": "2026-07-24T20:02:32+00:00",
+     "commits_total": 428,
+     "commits_after_demo": 399,
+     "commits_last_30d": 0,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 370
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://github.com/lfglabs-dev/lean-silicon",
+     "http": 200,
+     "final_url": "https://github.com/lfglabs-dev/lean-silicon"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "recent",
+   "status_reason": "Last public activity 31-90 days ago",
+   "checkpoints": {
+    "30": "active",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 73,
+    "event": 1
+   }
+  },
+  {
+   "name": "explorador",
+   "hackathon": "ETHGlobal Lisbon 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-07-26",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "RWA/tokenization",
+   "source_url": "https://x.com/ETHGlobal/status/2081396538698563922",
+   "listing_url": "https://ethglobal.com/showcase/explorador-pt-35okq",
+   "website": "https://ethglobal.explorador.pt",
+   "repo": "https://github.com/joaointech/explorador-house-flash-loan",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/joaointech/explorador-house-flash-loan",
+    "website": "https://ethglobal.explorador.pt"
+   },
+   "link_sources": {
+    "repo": "listing page",
+    "website": "listing page"
+   },
+   "days_since_demo": 86,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/joaointech/explorador-house-flash-loan",
+     "last_commit": "2026-07-26T02:48:12+00:00",
+     "first_commit": "2026-07-24T19:40:12+00:00",
+     "commits_total": 33,
+     "commits_after_demo": 8,
+     "commits_last_30d": 0,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 8
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "down",
+     "url": "https://ethglobal.explorador.pt",
+     "http": 404
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "recent",
+   "status_reason": "Last public activity 31-90 days ago",
+   "checkpoints": {
+    "30": "active",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 30,
+    "event": 1
+   }
+  },
+  {
+   "name": "ethui agentic wallet",
+   "hackathon": "ETHGlobal Lisbon 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-07-26",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "Wallets/UX",
+   "source_url": "https://x.com/ETHGlobal/status/2081396555547066443",
+   "listing_url": "https://ethglobal.com/showcase/ethui-agentic-wallet-6ohfx",
+   "website": "https://github.com/ethui/",
+   "repo": "https://github.com/ethui/ethui",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/ethui/ethui",
+    "website": "https://github.com/ethui/"
+   },
+   "link_sources": {
+    "repo": "listing page",
+    "website": "listing page"
+   },
+   "days_since_demo": 86,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/ethui/ethui",
+     "last_commit": "2026-07-30T13:58:00+00:00",
+     "first_commit": "2023-02-11T19:22:02+00:00",
+     "commits_total": 1610,
+     "commits_after_demo": 2,
+     "commits_last_30d": 0,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 2
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://github.com/ethui/",
+     "http": 200,
+     "final_url": "https://github.com/ethui/"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "recent",
+   "status_reason": "Last public activity 31-90 days ago",
+   "checkpoints": {
+    "30": "active",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 34,
+    "event": 1
+   }
+  },
+  {
+   "name": "Lortnoc Tahc",
+   "hackathon": "ETHGlobal Lisbon 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-07-26",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "Privacy",
+   "source_url": "https://x.com/ETHGlobal/status/2081396572202602790",
+   "listing_url": "https://ethglobal.com/showcase/lortnoc-tahc-y1d3j",
+   "website": "https://www.lortnoctahc.com/",
+   "repo": "https://github.com/forever8896/lortnoc_tahc",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/forever8896/lortnoc_tahc",
+    "website": "https://www.lortnoctahc.com/"
+   },
+   "link_sources": {
+    "repo": "listing page",
+    "website": "listing page"
+   },
+   "days_since_demo": 86,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/forever8896/lortnoc_tahc",
+     "last_commit": "2026-09-26T19:08:16+00:00",
+     "first_commit": "2026-07-24T20:22:30+00:00",
+     "commits_total": 266,
+     "commits_after_demo": 155,
+     "commits_last_30d": 86,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 69
+      },
+      "90": {
+       "reached": false,
+       "commits": 86
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://www.lortnoctahc.com/",
+     "http": 200,
+     "final_url": "https://www.lortnoctahc.com/everywhere"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "active",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 86,
+    "event": 0
+   }
+  },
+  {
+   "name": "ArcBook",
+   "hackathon": "ETHGlobal Lisbon 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-07-26",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "DeFi/trading",
+   "source_url": "https://x.com/ETHGlobal/status/2081396588921180192",
+   "listing_url": "https://ethglobal.com/showcase/arcbook-twp2a",
+   "website": "https://arcbook-nu.vercel.app",
+   "repo": "https://github.com/Ryad2/liquid_OB",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/Ryad2/liquid_OB",
+    "website": "https://arcbook-nu.vercel.app"
+   },
+   "link_sources": {
+    "repo": "listing page",
+    "website": "listing page"
+   },
+   "days_since_demo": 86,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "repo": "https://github.com/Ryad2/liquid_OB",
+     "note": "repo not reachable (private, renamed or deleted?): HTTP 404"
+    },
+    "site": {
+     "status": "up",
+     "url": "https://arcbook-nu.vercel.app",
+     "http": 200,
+     "final_url": "https://arcbook.fi/"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "site_only",
+   "status_reason": "Site responds; commit/post activity not verifiable",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Carte Bleue",
+   "hackathon": "ETHGlobal Lisbon 2026",
+   "organizer": "ETHGlobal",
+   "demo_day": "2026-07-26",
+   "track": "Finalist",
+   "placing": "Finalist",
+   "prize_tier": "Finalist",
+   "segment": "Wallets/UX",
+   "source_url": "https://x.com/ETHGlobal/status/2081396604851073382",
+   "listing_url": "https://ethglobal.com/showcase/carte-bleue-ftuuc",
+   "website": "https://carte-bleue.vercel.app/",
+   "repo": "https://github.com/yssf-io/carte_bleue",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/yssf-io/carte_bleue",
+    "website": "https://carte-bleue.vercel.app/"
+   },
+   "link_sources": {
+    "repo": "listing page",
+    "website": "listing page"
+   },
+   "days_since_demo": 86,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/yssf-io/carte_bleue",
+     "last_commit": "2026-07-27T10:12:39+00:00",
+     "first_commit": "2026-07-25T09:58:55+00:00",
+     "commits_total": 14,
+     "commits_after_demo": 2,
+     "commits_last_30d": 0,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 2
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://carte-bleue.vercel.app/",
+     "http": 200,
+     "final_url": "https://carte-bleue.vercel.app/"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "recent",
+   "status_reason": "Last public activity 31-90 days ago",
+   "checkpoints": {
+    "30": "active",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 31,
+    "event": 1
+   }
+  },
+  {
+   "name": "Zona",
+   "hackathon": "Arbitrum Open House Buildathon",
+   "organizer": "Arbitrum",
+   "demo_day": "2026-10-12",
+   "track": "Open",
+   "placing": "1st",
+   "prize_tier": "Top prize",
+   "segment": "RWA/tokenization",
+   "source_url": "https://x.com/arbitrum/status/2109674833126752562",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": "zona_io",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 8,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "checked",
+     "handle": "zona_io",
+     "source": "snapshot 2026-10-20T19:27:00Z",
+     "last_post": "2026-10-20T14:09:05Z",
+     "post_url": "https://x.com/i/status/2112546650329870767"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Lockgate Finance",
+   "hackathon": "Arbitrum Open House Buildathon",
+   "organizer": "Arbitrum",
+   "demo_day": "2026-10-12",
+   "track": "Promising Products",
+   "placing": "1st",
+   "prize_tier": "Top prize",
+   "segment": "RWA/tokenization",
+   "source_url": "https://x.com/arbitrum/status/2109674850516439274",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": "LockgateFinance",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 8,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "checked",
+     "handle": "LockgateFinance",
+     "source": "snapshot 2026-10-20T19:27:00Z",
+     "last_post": null,
+     "post_url": null
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "quiet",
+   "status_reason": "No public commit/post found since demo day",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Battle Cities",
+   "hackathon": "MagicBlock Solana Blitz v9",
+   "organizer": "MagicBlock",
+   "demo_day": "2026-10-15",
+   "track": "Main",
+   "placing": "1st",
+   "prize_tier": "Top prize",
+   "segment": "Gaming",
+   "source_url": "https://x.com/magicblock/status/2110732784130228432",
+   "listing_url": null,
+   "website": "https://magic.battlecities.com",
+   "repo": null,
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 5,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "up",
+     "url": "https://magic.battlecities.com",
+     "http": 200,
+     "final_url": "https://magic.battlecities.com"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "site_only",
+   "status_reason": "Site responds; commit/post activity not verifiable",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Blackout",
+   "hackathon": "MagicBlock Solana Blitz v9",
+   "organizer": "MagicBlock",
+   "demo_day": "2026-10-15",
+   "track": "Main",
+   "placing": "2nd",
+   "prize_tier": "Placed",
+   "segment": "Gaming",
+   "source_url": "https://x.com/magicblock/status/2110732865923383620",
+   "listing_url": null,
+   "website": "https://blackout.anshverma.tech",
+   "repo": null,
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 5,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "up",
+     "url": "https://blackout.anshverma.tech",
+     "http": 200,
+     "final_url": "https://blackout.anshverma.tech"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "site_only",
+   "status_reason": "Site responds; commit/post activity not verifiable",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "NoirWire",
+   "hackathon": "MagicBlock Solana Blitz v9",
+   "organizer": "MagicBlock",
+   "demo_day": "2026-10-15",
+   "track": "Main",
+   "placing": "3rd",
+   "prize_tier": "Placed",
+   "segment": "Privacy",
+   "source_url": "https://x.com/magicblock/status/2110732940892361139",
+   "listing_url": null,
+   "website": "https://noirwire.com",
+   "repo": null,
+   "x_handle": "_Noirwire_",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 5,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "up",
+     "url": "https://noirwire.com",
+     "http": 200,
+     "final_url": "https://noirwire.com"
+    },
+    "x": {
+     "status": "checked",
+     "handle": "_Noirwire_",
+     "source": "snapshot 2026-10-20T19:27:00Z",
+     "last_post": "2026-10-17T13:03:54Z",
+     "post_url": "https://x.com/i/status/2111443085175488691"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Nightfall",
+   "hackathon": "MagicBlock Solana Blitz v9",
+   "organizer": "MagicBlock",
+   "demo_day": "2026-10-15",
+   "track": "Main",
+   "placing": "Judge's choice",
+   "prize_tier": "Placed",
+   "segment": "Gaming",
+   "source_url": "https://x.com/magicblock/status/2110733005212020937",
+   "listing_url": null,
+   "website": "https://nightfall-blitz.vercel.app",
+   "repo": null,
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 5,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "up",
+     "url": "https://nightfall-blitz.vercel.app",
+     "http": 200,
+     "final_url": "https://nightfall-blitz.vercel.app"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "site_only",
+   "status_reason": "Site responds; commit/post activity not verifiable",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Sup Wallet",
+   "hackathon": "Sui Overflow 2026",
+   "organizer": "Sui",
+   "demo_day": "2026-08-27",
+   "track": "Agentic Web",
+   "placing": "1st",
+   "prize_tier": "Top prize",
+   "segment": "AI agents",
+   "source_url": "https://x.com/suidevelopers/status/2092779634673013061",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": "Sup_Wallet",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 54,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "checked",
+     "handle": "Sup_Wallet",
+     "source": "snapshot 2026-10-20T19:27:00Z",
+     "last_post": "2026-10-18T15:07:46Z",
+     "post_url": "https://x.com/i/status/2111836644383117586"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Sprout",
+   "hackathon": "Sui Overflow 2026",
+   "organizer": "Sui",
+   "demo_day": "2026-08-27",
+   "track": "Agentic Web",
+   "placing": "2nd",
+   "prize_tier": "Placed",
+   "segment": "AI agents",
+   "source_url": "https://x.com/suidevelopers/status/2092779634673013061",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 54,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "unknown",
+   "status_reason": "No checkable public signal",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Rill",
+   "hackathon": "Sui Overflow 2026",
+   "organizer": "Sui",
+   "demo_day": "2026-08-27",
+   "track": "Agentic Web",
+   "placing": "3rd",
+   "prize_tier": "Placed",
+   "segment": "AI agents",
+   "source_url": "https://x.com/suidevelopers/status/2092779634673013061",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": "rillforagents",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 54,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "checked",
+     "handle": "rillforagents",
+     "source": "snapshot 2026-10-20T19:27:00Z",
+     "last_post": "2026-09-10T04:48:41Z",
+     "post_url": "https://x.com/i/status/2097910105945886873"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "recent",
+   "status_reason": "Last public activity 31-90 days ago",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Quay",
+   "hackathon": "Sui Overflow 2026",
+   "organizer": "Sui",
+   "demo_day": "2026-08-27",
+   "track": "DeFi & Payments",
+   "placing": "1st",
+   "prize_tier": "Top prize",
+   "segment": "Payments/stablecoins",
+   "source_url": "https://x.com/suidevelopers/status/2092779646744228226",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 54,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "unknown",
+   "status_reason": "No checkable public signal",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Talise",
+   "hackathon": "Sui Overflow 2026",
+   "organizer": "Sui",
+   "demo_day": "2026-08-27",
+   "track": "DeFi & Payments",
+   "placing": "2nd",
+   "prize_tier": "Placed",
+   "segment": "Payments/stablecoins",
+   "source_url": "https://x.com/suidevelopers/status/2092779646744228226",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": "taliseioe",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 54,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "unknown",
+     "handle": "taliseioe",
+     "note": "account not found at snapshot time"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "unknown",
+   "status_reason": "No checkable public signal",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Brisk",
+   "hackathon": "Sui Overflow 2026",
+   "organizer": "Sui",
+   "demo_day": "2026-08-27",
+   "track": "DeFi & Payments",
+   "placing": "3rd",
+   "prize_tier": "Placed",
+   "segment": "Payments/stablecoins",
+   "source_url": "https://x.com/suidevelopers/status/2092779646744228226",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": "briskonsui",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 54,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "checked",
+     "handle": "briskonsui",
+     "source": "snapshot 2026-10-20T19:27:00Z",
+     "last_post": "2026-08-27T12:46:34Z",
+     "post_url": "https://x.com/i/status/2092956939357503961"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "recent",
+   "status_reason": "Last public activity 31-90 days ago",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Kraterion",
+   "hackathon": "Sui Overflow 2026",
+   "organizer": "Sui",
+   "demo_day": "2026-08-27",
+   "track": "Walrus",
+   "placing": "1st",
+   "prize_tier": "Top prize",
+   "segment": "Infra/L2/dev tools",
+   "source_url": "https://x.com/suidevelopers/status/2092779658798673981",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 54,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "unknown",
+   "status_reason": "No checkable public signal",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Deploy by Suize",
+   "hackathon": "Sui Overflow 2026",
+   "organizer": "Sui",
+   "demo_day": "2026-08-27",
+   "track": "Walrus",
+   "placing": "2nd",
+   "prize_tier": "Placed",
+   "segment": "Infra/L2/dev tools",
+   "source_url": "https://x.com/suidevelopers/status/2092779658798673981",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": "suize_io",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 54,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "checked",
+     "handle": "suize_io",
+     "source": "snapshot 2026-10-20T19:27:00Z",
+     "last_post": "2026-09-09T03:55:59Z",
+     "post_url": "https://x.com/i/status/2097534456701833653"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "recent",
+   "status_reason": "Last public activity 31-90 days ago",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Carry",
+   "hackathon": "Sui Overflow 2026",
+   "organizer": "Sui",
+   "demo_day": "2026-08-27",
+   "track": "Walrus",
+   "placing": "3rd",
+   "prize_tier": "Placed",
+   "segment": "AI agents",
+   "source_url": "https://x.com/suidevelopers/status/2092779658798673981",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": "CarrySui",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 54,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "checked",
+     "handle": "CarrySui",
+     "source": "snapshot 2026-10-20T19:27:00Z",
+     "last_post": "2026-10-13T14:31:39Z",
+     "post_url": "https://x.com/i/status/2110015617034268774"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Praxis",
+   "hackathon": "Sui Overflow 2026",
+   "organizer": "Sui",
+   "demo_day": "2026-08-27",
+   "track": "Walrus",
+   "placing": "4th",
+   "prize_tier": "Placed",
+   "segment": "Security/compliance",
+   "source_url": "https://x.com/suidevelopers/status/2092779658798673981",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 54,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "unknown",
+   "status_reason": "No checkable public signal",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Pips",
+   "hackathon": "Sui Overflow 2026",
+   "organizer": "Sui",
+   "demo_day": "2026-08-27",
+   "track": "DeepBook",
+   "placing": "1st",
+   "prize_tier": "Top prize",
+   "segment": "Gaming",
+   "source_url": "https://x.com/suidevelopers/status/2092779670660120934",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": "PlayPipsFun",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 54,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "checked",
+     "handle": "PlayPipsFun",
+     "source": "snapshot 2026-10-20T19:27:00Z",
+     "last_post": "2026-10-12T07:33:21Z",
+     "post_url": "https://x.com/i/status/2109547959469912491"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "yosuku",
+   "hackathon": "Sui Overflow 2026",
+   "organizer": "Sui",
+   "demo_day": "2026-08-27",
+   "track": "DeepBook",
+   "placing": "2nd",
+   "prize_tier": "Placed",
+   "segment": "Prediction markets",
+   "source_url": "https://x.com/suidevelopers/status/2092779670660120934",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": "yosuku0",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 54,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "checked",
+     "handle": "yosuku0",
+     "source": "snapshot 2026-10-20T19:27:00Z",
+     "last_post": "2026-10-17T19:38:17Z",
+     "post_url": "https://x.com/i/status/2111542331924992270"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Skew",
+   "hackathon": "Sui Overflow 2026",
+   "organizer": "Sui",
+   "demo_day": "2026-08-27",
+   "track": "DeepBook",
+   "placing": "3rd",
+   "prize_tier": "Placed",
+   "segment": "DeFi/trading",
+   "source_url": "https://x.com/suidevelopers/status/2092779670660120934",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": "skew_sui",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 54,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "checked",
+     "handle": "skew_sui",
+     "source": "snapshot 2026-10-20T19:27:00Z",
+     "last_post": "2026-10-16T13:17:20Z",
+     "post_url": "https://x.com/i/status/2111084077256499349"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "CoinGraph",
+   "hackathon": "TOKEN2049 Origins",
+   "organizer": "TOKEN2049",
+   "demo_day": "2026-10-08",
+   "track": "Overall",
+   "placing": "Overall winner",
+   "prize_tier": "Top prize",
+   "segment": "Security/compliance",
+   "source_url": "https://x.com/Cardano_CF/status/2108218817537024467",
+   "listing_url": null,
+   "website": "https://token2049.coingraph.ai",
+   "repo": null,
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 12,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "up",
+     "url": "https://token2049.coingraph.ai",
+     "http": 200,
+     "final_url": "https://coingraph.ai/"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "site_only",
+   "status_reason": "Site responds; commit/post activity not verifiable",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Cardano Card",
+   "hackathon": "TOKEN2049 Origins",
+   "organizer": "TOKEN2049",
+   "demo_day": "2026-10-08",
+   "track": "Cardano",
+   "placing": "1st",
+   "prize_tier": "Top prize",
+   "segment": "AI agents",
+   "source_url": "https://x.com/Cardano_CF/status/2108218820246520288",
+   "listing_url": null,
+   "website": "https://cardano-card-launch.netlify.app",
+   "repo": null,
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 12,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "up",
+     "url": "https://cardano-card-launch.netlify.app",
+     "http": 200,
+     "final_url": "https://cardano-card-launch.netlify.app"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "site_only",
+   "status_reason": "Site responds; commit/post activity not verifiable",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "zx402",
+   "hackathon": "TOKEN2049 Origins",
+   "organizer": "TOKEN2049",
+   "demo_day": "2026-10-08",
+   "track": "Cardano",
+   "placing": "2nd",
+   "prize_tier": "Placed",
+   "segment": "Privacy",
+   "source_url": "https://x.com/Cardano_CF/status/2108218823157354723",
+   "listing_url": null,
+   "website": "https://zx402.org",
+   "repo": null,
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 12,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "up",
+     "url": "https://zx402.org",
+     "http": 200,
+     "final_url": "https://zx402.org"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "site_only",
+   "status_reason": "Site responds; commit/post activity not verifiable",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Nitrane Uplift",
+   "hackathon": "TOKEN2049 Origins",
+   "organizer": "TOKEN2049",
+   "demo_day": "2026-10-08",
+   "track": "Cardano",
+   "placing": "3rd",
+   "prize_tier": "Placed",
+   "segment": "AI agents",
+   "source_url": "https://x.com/Cardano_CF/status/2108218825657233620",
+   "listing_url": null,
+   "website": "https://uplift-landing.up.railway.app",
+   "repo": null,
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 12,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "down",
+     "url": "https://uplift-landing.up.railway.app",
+     "http": 404
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "unknown",
+   "status_reason": "Site not responding; no repo or X to check",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Hirakumi",
+   "hackathon": "TOKEN2049 Origins",
+   "organizer": "TOKEN2049",
+   "demo_day": "2026-10-08",
+   "track": "Overall",
+   "placing": "Best overall mention",
+   "prize_tier": "Placed",
+   "segment": "AI agents",
+   "source_url": "https://x.com/Cardano_CF/status/2108218828060533149",
+   "listing_url": null,
+   "website": "https://hirakumi.vercel.app",
+   "repo": null,
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 12,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "up",
+     "url": "https://hirakumi.vercel.app",
+     "http": 200,
+     "final_url": "https://hirakumi.vercel.app"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "site_only",
+   "status_reason": "Site responds; commit/post activity not verifiable",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "APUBCC",
+   "hackathon": "TOKEN2049 Origins",
+   "organizer": "TOKEN2049",
+   "demo_day": "2026-10-08",
+   "track": "Chainlink CRE",
+   "placing": "Track winner",
+   "prize_tier": "Track winner",
+   "segment": "Security/compliance",
+   "source_url": "https://x.com/solangegueiros/status/2108203267196928045",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 12,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "unknown",
+   "status_reason": "No checkable public signal",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "CodeDecoders",
+   "hackathon": "TOKEN2049 Origins",
+   "organizer": "TOKEN2049",
+   "demo_day": "2026-10-08",
+   "track": "Chainlink CRE",
+   "placing": "Track winner",
+   "prize_tier": "Track winner",
+   "segment": "RWA/tokenization",
+   "source_url": "https://x.com/solangegueiros/status/2108203267196928045",
+   "listing_url": null,
+   "website": null,
+   "repo": null,
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 12,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "note": "no public repo linked"
+    },
+    "site": {
+     "status": "unknown",
+     "note": "no website linked"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "unknown",
+   "status_reason": "No checkable public signal",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Find Hidden Money",
+   "hackathon": "Monad Blitz Mumbai V4",
+   "organizer": "Monad",
+   "demo_day": "2026-09-24",
+   "track": "Main",
+   "placing": "1st (self-reported)",
+   "prize_tier": "Top prize",
+   "segment": "Wallets/UX",
+   "source_url": "https://x.com/amaanbiz/status/2103124754760868170",
+   "listing_url": null,
+   "website": "https://www.find-hidden-money.fun/",
+   "repo": "https://github.com/AmaanSayyad/find_hidden_money",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {},
+   "days_since_demo": 26,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/AmaanSayyad/find_hidden_money",
+     "last_commit": "2026-09-19T13:23:48+00:00",
+     "first_commit": "2026-09-19T11:02:42+00:00",
+     "commits_total": 58,
+     "commits_after_demo": 0,
+     "commits_last_30d": 0,
+     "windows": {
+      "30": {
+       "reached": false,
+       "commits": 0
+      },
+      "90": {
+       "reached": false,
+       "commits": 0
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://www.find-hidden-money.fun/",
+     "http": 200,
+     "final_url": "https://www.find-hidden-money.fun/"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "recent",
+   "status_reason": "Last public activity 31-90 days ago",
+   "checkpoints": {
+    "30": "pending",
+    "90": "pending",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 26,
+    "event": 1
+   }
+  },
+  {
+   "name": "CrowdBrain",
+   "hackathon": "Colosseum Solana Frontier",
+   "organizer": "Colosseum",
+   "demo_day": "2026-06-26",
+   "track": "Main",
+   "placing": "Grand Champion",
+   "prize_tier": "Top prize",
+   "segment": "DePIN/robotics",
+   "source_url": "https://blog.colosseum.com/announcing-the-winners-of-the-solana-frontier-hackathon/",
+   "listing_url": "https://arena.colosseum.org/projects/explore/crowdbrain",
+   "website": "https://crowdbrain.ai/",
+   "repo": "https://github.com/CrowdBrain/application",
+   "x_handle": "crowdbrainai",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/CrowdBrain/application",
+    "x_handle": "crowdbrainai",
+    "website": "https://crowdbrain.ai/"
+   },
+   "link_sources": {
+    "repo": "listing page",
+    "x_handle": "listing page",
+    "website": "listing page"
+   },
+   "days_since_demo": 116,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "repo": "https://github.com/CrowdBrain/application",
+     "note": "repo not reachable (private, renamed or deleted?): HTTP 404"
+    },
+    "site": {
+     "status": "up",
+     "url": "https://crowdbrain.ai/",
+     "http": 200,
+     "final_url": "https://crowdbrain.ai/"
+    },
+    "x": {
+     "status": "checked",
+     "handle": "crowdbrainai",
+     "source": "snapshot 2026-10-20T19:27:00Z",
+     "last_post": "2026-10-06T13:26:34Z",
+     "post_url": "https://x.com/i/status/2107462522735620267"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Mentioned",
+   "hackathon": "Colosseum Solana Frontier",
+   "organizer": "Colosseum",
+   "demo_day": "2026-06-26",
+   "track": "Main",
+   "placing": "Winner",
+   "prize_tier": "Track winner",
+   "segment": "Prediction markets",
+   "source_url": "https://blog.colosseum.com/announcing-the-winners-of-the-solana-frontier-hackathon/",
+   "listing_url": "https://arena.colosseum.org/projects/explore/mentioned",
+   "website": "https://www.mentioned.market/",
+   "repo": "https://github.com/Mentioned-Market/mentioned",
+   "x_handle": "mentionedmarket",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/Mentioned-Market/mentioned",
+    "x_handle": "mentionedmarket",
+    "website": "https://www.mentioned.market/"
+   },
+   "link_sources": {
+    "repo": "listing page",
+    "x_handle": "listing page",
+    "website": "listing page"
+   },
+   "days_since_demo": 116,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "repo": "https://github.com/Mentioned-Market/mentioned",
+     "note": "repo not reachable (private, renamed or deleted?): HTTP 404"
+    },
+    "site": {
+     "status": "up",
+     "url": "https://www.mentioned.market/",
+     "http": 200,
+     "final_url": "https://www.mentioned.market/"
+    },
+    "x": {
+     "status": "checked",
+     "handle": "mentionedmarket",
+     "source": "snapshot 2026-10-20T19:27:00Z",
+     "last_post": "2026-10-20T17:51:22Z",
+     "post_url": "https://x.com/i/status/2112602589275836876"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Bench",
+   "hackathon": "Colosseum Solana Frontier",
+   "organizer": "Colosseum",
+   "demo_day": "2026-06-26",
+   "track": "Main",
+   "placing": "Winner",
+   "prize_tier": "Track winner",
+   "segment": "Prediction markets",
+   "source_url": "https://blog.colosseum.com/announcing-the-winners-of-the-solana-frontier-hackathon/",
+   "listing_url": "https://arena.colosseum.org/projects/explore/bench",
+   "website": "https://bench.markets",
+   "repo": "https://github.com/Bench-games/bench-core",
+   "x_handle": "benchdotmarkets",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/Bench-games/bench-core",
+    "x_handle": "benchdotmarkets",
+    "website": "https://bench.markets"
+   },
+   "link_sources": {
+    "repo": "listing page",
+    "x_handle": "listing page",
+    "website": "listing page"
+   },
+   "days_since_demo": 116,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "repo": "https://github.com/Bench-games/bench-core",
+     "note": "repo not reachable (private, renamed or deleted?): HTTP 404"
+    },
+    "site": {
+     "status": "up",
+     "url": "https://bench.markets",
+     "http": 200,
+     "final_url": "https://bench.markets"
+    },
+    "x": {
+     "status": "checked",
+     "handle": "benchdotmarkets",
+     "source": "snapshot 2026-10-20T19:27:00Z",
+     "last_post": "2026-10-12T16:50:55Z",
+     "post_url": "https://x.com/i/status/2109688272926711925"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Senthos",
+   "hackathon": "Colosseum Solana Frontier",
+   "organizer": "Colosseum",
+   "demo_day": "2026-06-26",
+   "track": "Main",
+   "placing": "Winner",
+   "prize_tier": "Track winner",
+   "segment": "Prediction markets",
+   "source_url": "https://blog.colosseum.com/announcing-the-winners-of-the-solana-frontier-hackathon/",
+   "listing_url": "https://arena.colosseum.org/projects/explore/senthos",
+   "website": "https://senthos.xyz/",
+   "repo": "https://github.com/notveiker/Senthos",
+   "x_handle": null,
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "ignore_discovered": [
+    "x_handle"
+   ],
+   "note": "Arena lists a personal X account; not used as a project signal.",
+   "discovered": {
+    "repo": "https://github.com/notveiker/Senthos",
+    "x_handle": "woah_vickyy",
+    "website": "https://senthos.xyz/"
+   },
+   "link_sources": {
+    "repo": "listing page",
+    "website": "listing page"
+   },
+   "days_since_demo": 116,
+   "signals": {
+    "github": {
+     "status": "unknown",
+     "repo": "https://github.com/notveiker/Senthos",
+     "note": "repo not reachable (private, renamed or deleted?): HTTP 404"
+    },
+    "site": {
+     "status": "up",
+     "url": "https://senthos.xyz/",
+     "http": 200,
+     "final_url": "https://www.senthos.xyz/"
+    },
+    "x": {
+     "status": "unknown",
+     "note": "no project X account linked"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "site_only",
+   "status_reason": "Site responds; commit/post activity not verifiable",
+   "checkpoints": {
+    "30": "unknown",
+    "90": "unknown",
+    "180": "unknown"
+   },
+   "survival": null
+  },
+  {
+   "name": "Flovia",
+   "hackathon": "Colosseum Solana Frontier",
+   "organizer": "Colosseum",
+   "demo_day": "2026-06-26",
+   "track": "Main",
+   "placing": "Winner",
+   "prize_tier": "Track winner",
+   "segment": "AI agents",
+   "source_url": "https://blog.colosseum.com/announcing-the-winners-of-the-solana-frontier-hackathon/",
+   "listing_url": "https://arena.colosseum.org/projects/explore/flovia",
+   "website": "https://www.flovia402.com/",
+   "repo": "https://github.com/flovia/poc",
+   "x_handle": "flovia402",
+   "raise": null,
+   "token_address": null,
+   "contract": null,
+   "discovered": {
+    "repo": "https://github.com/flovia/poc",
+    "x_handle": "flovia402",
+    "website": "https://www.flovia402.com/"
+   },
+   "link_sources": {
+    "repo": "listing page",
+    "x_handle": "listing page",
+    "website": "listing page"
+   },
+   "days_since_demo": 116,
+   "signals": {
+    "github": {
+     "status": "checked",
+     "repo": "https://github.com/flovia/poc",
+     "last_commit": "2026-09-18T01:30:47+00:00",
+     "first_commit": "2026-04-28T01:12:42+00:00",
+     "commits_total": 645,
+     "commits_after_demo": 16,
+     "commits_last_30d": 0,
+     "windows": {
+      "30": {
+       "reached": true,
+       "commits": 2
+      },
+      "90": {
+       "reached": true,
+       "commits": 14
+      },
+      "180": {
+       "reached": false,
+       "commits": 0
+      }
+     }
+    },
+    "site": {
+     "status": "up",
+     "url": "https://www.flovia402.com/",
+     "http": 200,
+     "final_url": "https://flovia.dev/"
+    },
+    "x": {
+     "status": "checked",
+     "handle": "flovia402",
+     "source": "snapshot 2026-10-20T19:27:00Z",
+     "last_post": "2026-10-20T08:43:54Z",
+     "post_url": "https://x.com/i/status/2112464815893696517"
+    },
+    "token": {
+     "status": "unknown",
+     "note": "no token address listed"
+    },
+    "contract": {
+     "status": "unknown",
+     "note": "contract activity is v2"
+    },
+    "raise": {
+     "status": "none recorded"
+    }
+   },
+   "status": "active",
+   "status_reason": "Public activity in last 30 days",
+   "checkpoints": {
+    "30": "active",
+    "90": "active",
+    "180": "pending"
+   },
+   "survival": {
+    "t": 114,
+    "event": 1
+   }
+  }
+ ]
+}

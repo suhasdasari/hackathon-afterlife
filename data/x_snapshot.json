@@ -1,0 +1,69 @@
+{
+ "as_of": "2026-10-20T19:27:00Z",
+ "method": "X API v2 user lookup (most_recent_tweet_id, includes reposts/replies) + post lookup; one-off snapshot taken while building. Refreshed live only if X_BEARER_TOKEN is set.",
+ "not_found": [
+  "taliseioe"
+ ],
+ "accounts": {
+  "zona_io": {
+   "last_post": "2026-10-20T14:09:05Z",
+   "post_url": "https://x.com/i/status/2112546650329870767"
+  },
+  "_noirwire_": {
+   "last_post": "2026-10-17T13:03:54Z",
+   "post_url": "https://x.com/i/status/2111443085175488691"
+  },
+  "sup_wallet": {
+   "last_post": "2026-10-18T15:07:46Z",
+   "post_url": "https://x.com/i/status/2111836644383117586"
+  },
+  "rillforagents": {
+   "last_post": "2026-09-10T04:48:41Z",
+   "post_url": "https://x.com/i/status/2097910105945886873"
+  },
+  "briskonsui": {
+   "last_post": "2026-08-27T12:46:34Z",
+   "post_url": "https://x.com/i/status/2092956939357503961"
+  },
+  "suize_io": {
+   "last_post": "2026-09-09T03:55:59Z",
+   "post_url": "https://x.com/i/status/2097534456701833653"
+  },
+  "carrysui": {
+   "last_post": "2026-10-13T14:31:39Z",
+   "post_url": "https://x.com/i/status/2110015617034268774"
+  },
+  "playpipsfun": {
+   "last_post": "2026-10-12T07:33:21Z",
+   "post_url": "https://x.com/i/status/2109547959469912491"
+  },
+  "yosuku0": {
+   "last_post": "2026-10-17T19:38:17Z",
+   "post_url": "https://x.com/i/status/2111542331924992270"
+  },
+  "skew_sui": {
+   "last_post": "2026-10-16T13:17:20Z",
+   "post_url": "https://x.com/i/status/2111084077256499349"
+  },
+  "crowdbrainai": {
+   "last_post": "2026-10-06T13:26:34Z",
+   "post_url": "https://x.com/i/status/2107462522735620267"
+  },
+  "mentionedmarket": {
+   "last_post": "2026-10-20T17:51:22Z",
+   "post_url": "https://x.com/i/status/2112602589275836876"
+  },
+  "benchdotmarkets": {
+   "last_post": "2026-10-12T16:50:55Z",
+   "post_url": "https://x.com/i/status/2109688272926711925"
+  },
+  "flovia402": {
+   "last_post": "2026-10-20T08:43:54Z",
+   "post_url": "https://x.com/i/status/2112464815893696517"
+  },
+  "lockgatefinance": {
+   "last_post": null,
+   "note": "account exists, no posts returned"
+  }
+ }
+}
