@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hackathon Afterlife — what happens to crypto hackathon winners after demo day</title>
+<meta name="description" content="Live tracker of crypto hackathon winners: public activity 30, 90 and 180 days after demo day, from fixed, documented rules over public signals.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <h1>Hackathon Afterlife <span class="beta">beta</span></h1>
+  <p class="lede">What happens to crypto hackathon winners after demo day? Every project, every signal, every receipt — checked nightly with <a href="#method">fixed public rules</a>.</p>
+  <p class="stamp" id="stamp">Loading data…</p>
+</header>
+<main>
+  <section id="kpis" class="kpis"></section>
+
+  <section>
+    <h2>Public activity at 30 / 90 / 180 days after demo day</h2>
+    <p class="note">Share of projects with ≥1 public GitHub commit in the 30-day window ending at that checkpoint. Only projects with a reachable public repo whose checkpoint date has passed are counted (n shown).</p>
+    <div class="tablewrap"><table id="cp"></table></div>
+  </section>
+
+  <section>
+    <h2>Survival curves</h2>
+    <p class="note">Kaplan-Meier estimate of “still showing public commits” by days since demo day. A project “goes quiet” 30 days after its last commit; projects still committing are censored at today. Public-repo projects only.</p>
+    <label>Group by
+      <select id="groupBy">
+        <option value="organizer">Hackathon organizer</option>
+        <option value="hackathon">Hackathon</option>
+        <option value="segment">Track / segment</option>
+        <option value="prize_tier">Prize tier</option>
+      </select>
+    </label>
+    <div id="km" class="chart"></div>
+    <div id="kmLegend" class="legend"></div>
+  </section>
+
+  <section>
+    <h2>All projects</h2>
+    <div class="filters">
+      <input id="q" type="search" placeholder="Search project…">
+      <select id="fOrg"><option value="">All organizers</option></select>
+      <select id="fStatus"><option value="">All statuses</option></select>
+    </div>
+    <div class="tablewrap"><table id="projects"></table></div>
+  </section>
+
+  <section id="method">
+    <h2>Methodology (rules v1)</h2>
+    <ul>
+      <li><b>Demo day</b> = date the winners/finalists were publicly announced (linked source).</li>
+      <li><b>GitHub</b>: commits on the default branch of the linked public repo (committer date). Private, missing or unlinked repo → <i>unknown</i>, never “inactive”.</li>
+      <li><b>Checkpoint N (30/90/180d)</b>: “active” if ≥1 commit in the 30 days ending N days after demo day; “pending” if that date hasn’t arrived.</li>
+      <li><b>Site</b>: HTTP GET of the listed site; 2xx/3xx and not a parked/“deployment not found” page = up. Bot walls (401/403/429/503) = unknown.</li>
+      <li><b>X</b>: date of the project account’s most recent post (any post type). Checked live only when an API token is available, otherwise from a dated snapshot, otherwise unknown.</li>
+      <li><b>Token</b>: DexScreener lookup only when a token address is listed. <b>Raise</b>: manual, sourced entries only. <b>Contract activity</b>: planned (v2).</li>
+      <li><b>Status</b>: Graduated (sourced raise or token FDV ≥ $1M) → Active (commit or post ≤ 30 days) → Recent (31–90 days) → Site up only → Quiet (no public commit/post in 90 days, or none found since demo day) → Insufficient data.</li>
+      <li>Labels describe <i>public</i> signals only. Private repos, pivots and renames are common — a quiet label is not a judgement on the team. <a href="https://github.com/suhasdasari/hackathon-afterlife#rules">Full rules</a>.</li>
+    </ul>
+  </section>
+</main>
+<footer>
+  <p>Built by <a href="https://x.com/SatoshiDropsHQ" target="_blank" rel="noopener">Satoshi Drops 🪂 @SatoshiDropsHQ</a></p>
+  <p class="small">Not financial advice. Status labels come from automated checks of public signals under the <a href="#method">published rules</a> and may be wrong — every project has a claim-and-correct link. <a href="https://github.com/suhasdasari/hackathon-afterlife">Source &amp; data</a> · <a href="data/projects.json">projects.json</a></p>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>
