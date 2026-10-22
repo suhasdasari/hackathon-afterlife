@@ -9,7 +9,7 @@ No paid APIs, no secrets required:
     data/x_snapshot.json is used if present, else the signal is 'unknown'.
 Signals that cannot be checked are recorded as 'unknown', never guessed.
 """
-import json, os, re, subprocess, sys, tempfile, time, urllib.request, urllib.error
+import json, os, random, re, shutil, subprocess, sys, tempfile, time, urllib.request, urllib.error
 from datetime import datetime, timezone, timedelta, date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -32,7 +32,52 @@ def log(*a):
     print(*a, file=sys.stderr, flush=True)
 
 
-def http(url, accept=None, token=None, timeout=20, method="GET"):
+# Hard wall-clock budget for the whole run (seconds). When exceeded, remaining
+# projects keep their previous entries and the run still exits 0.
+DEADLINE = time.time() + float(os.environ.get("REFRESH_BUDGET_S", "1200"))
+HAVE_GIT = shutil.which("git") is not None
+
+
+class Timeout(RuntimeError):
+    pass
+
+
+def check_deadline():
+    if time.time() > DEADLINE:
+        raise Timeout("refresh time budget exceeded")
+
+
+def remaining(cap):
+    return max(1, min(cap, DEADLINE - time.time()))
+
+
+def backoff(i, base=1.0, cap=20.0):
+    time.sleep(min(cap, base * 2 ** i, max(0, DEADLINE - time.time())) * (0.5 + random.random() / 2))
+
+
+def loads(body):
+    """json.loads that returns None instead of raising on bad / truncated / HTML bodies."""
+    try:
+        return json.loads(body)
+    except Exception:
+        return None
+
+
+def http(url, accept=None, token=None, timeout=20, method="GET", tries=3, limit=400_000):
+    """GET with retries + exponential backoff on network errors, 429 and 5xx."""
+    res = None
+    for i in range(tries):
+        check_deadline()
+        res = _http_once(url, accept, token, remaining(timeout), method, limit)
+        st = res[0]
+        if st is not None and st != 429 and st < 500:
+            return res
+        if i < tries - 1:
+            backoff(i)
+    return res
+
+
+def _http_once(url, accept, token, timeout, method, limit):
     req = urllib.request.Request(url, method=method, headers={"User-Agent": UA})
     if accept:
         req.add_header("Accept", accept)
@@ -40,7 +85,7 @@ def http(url, accept=None, token=None, timeout=20, method="GET"):
         req.add_header("Authorization", "Bearer " + token)
     try:
         with urllib.request.urlopen(req, timeout=timeout) as r:
-            return r.status, r.read(400_000).decode("utf-8", "replace"), dict(r.headers), r.geturl()
+            return r.status, r.read(limit).decode("utf-8", "replace"), dict(r.headers), r.geturl()
     except urllib.error.HTTPError as e:
         body = ""
         try:
@@ -49,7 +94,7 @@ def http(url, accept=None, token=None, timeout=20, method="GET"):
             pass
         return e.code, body, dict(e.headers or {}), url
     except Exception as e:
-        return None, str(e), {}, url
+        return None, str(e) or type(e).__name__, {}, url
 
 
 def parse_dt(s):
@@ -107,14 +152,24 @@ def repo_slug(url):
 
 def commits_via_git(url):
     """Commit timestamps on the default branch via a treeless bare clone (no API quota)."""
+    if not HAVE_GIT:
+        return None, "git not installed"
+    check_deadline()
+    try:
+        return _commits_via_git(url)
+    except (subprocess.TimeoutExpired, OSError, ValueError) as e:
+        return None, "git failed: %s" % type(e).__name__
+
+
+def _commits_via_git(url):
     with tempfile.TemporaryDirectory() as d:
         env = dict(os.environ, GIT_TERMINAL_PROMPT="0")
         p = subprocess.run(["git", "clone", "--bare", "--filter=tree:0", "--quiet", url, d + "/r"],
-                           capture_output=True, text=True, timeout=180, env=env)
+                           capture_output=True, text=True, timeout=remaining(120), env=env)
         if p.returncode != 0:
             return None, p.stderr.strip()[-200:]
         p = subprocess.run(["git", "-C", d + "/r", "log", "--format=%cI", "HEAD"],
-                           capture_output=True, text=True, timeout=60)
+                           capture_output=True, text=True, timeout=remaining(60))
         if p.returncode != 0:
             return [], "empty repository"
         return [parse_dt(x) for x in p.stdout.split()], None
@@ -125,11 +180,11 @@ def commits_via_api(owner, repo):
     dates, page = [], 1
     while page <= 5:
         st, body, hdr, _ = http("https://api.github.com/repos/%s/%s/commits?per_page=100&page=%d" % (owner, repo, page),
-                                "application/vnd.github+json", tok)
+                                "application/vnd.github+json", tok, limit=20_000_000)
         if st in (403, 429) and hdr.get("X-RateLimit-Remaining", hdr.get("x-ratelimit-remaining")) == "0":
             reset = int(hdr.get("X-RateLimit-Reset", hdr.get("x-ratelimit-reset", "0")) or 0)
             wait = max(0, reset - time.time()) + 2
-            if wait > 900:
+            if wait > 300 or time.time() + wait > DEADLINE - 60:
                 return None, "rate limited"
             log("  rate limited, sleeping %ds" % wait)
             time.sleep(wait)
@@ -138,7 +193,9 @@ def commits_via_api(owner, repo):
             return [], "empty repository"
         if st != 200:
             return None, "HTTP %s" % st
-        items = json.loads(body)
+        items = loads(body)
+        if not isinstance(items, list):
+            return None, "bad API response"
         dates += [parse_dt(c["commit"]["committer"]["date"]) for c in items]
         if len(items) < 100:
             break
@@ -200,14 +257,14 @@ def x_signal(handle, snapshot):
     if tok:
         st, body, _, _ = http("https://api.x.com/2/users/by/username/%s?user.fields=most_recent_tweet_id" % handle, token=tok)
         if st == 200:
-            u = json.loads(body).get("data") or {}
+            u = (loads(body) or {}).get("data") or {}
             tid = u.get("most_recent_tweet_id")
             if not tid:
                 return {"status": "checked", "handle": handle, "last_post": None}
             st, body, _, _ = http("https://api.x.com/2/tweets/%s?tweet.fields=created_at" % tid, token=tok)
-            if st == 200:
-                return {"status": "checked", "handle": handle, "source": "live",
-                        "last_post": json.loads(body)["data"]["created_at"]}
+            created = ((loads(body) or {}).get("data") or {}).get("created_at") if st == 200 else None
+            if created:
+                return {"status": "checked", "handle": handle, "source": "live", "last_post": created}
     if handle.lower() in [h.lower() for h in snapshot.get("not_found", [])]:
         return {"status": "unknown", "handle": handle, "note": "account not found at snapshot time"}
     s = (snapshot.get("accounts") or {}).get(handle.lower())
@@ -224,7 +281,10 @@ def token_signal(addr):
     st, body, _, _ = http("https://api.dexscreener.com/latest/dex/tokens/" + addr)
     if st != 200:
         return {"status": "unknown", "note": "DexScreener HTTP %s" % st}
-    pairs = json.loads(body).get("pairs") or []
+    d = loads(body)
+    if not isinstance(d, dict):
+        return {"status": "unknown", "note": "DexScreener returned non-JSON"}
+    pairs = d.get("pairs") or []
     if not pairs:
         return {"status": "checked", "exists": False}
     fdv = max((p.get("fdv") or 0) for p in pairs)
@@ -297,10 +357,35 @@ def main():
         snap = json.load(open(os.path.join(DATA, "x_snapshot.json")))
     except Exception:
         pass
-    out = []
+    out, failed = [], []
     for i, s in enumerate(seed):
+        log("[%d/%d] %s" % (i + 1, len(seed), s.get("name")))
+        try:
+            out.append(refresh_project(s, prev, snap))
+        except Exception as e:
+            log("  WARNING: %s failed (%s: %s); keeping previous entry" % (s.get("name"), type(e).__name__, e))
+            failed.append(s.get("name"))
+            old = prev.get(s.get("name"))
+            if old:
+                out.append(dict(old, stale=True))
+    if not out or (failed and len(failed) == len(seed)):
+        log("WARNING: every project failed; leaving data/projects.json unchanged")
+        return
+    res = {"generated_at": NOW.replace(microsecond=0).isoformat(), "rules_version": 1,
+           "x_snapshot_as_of": snap.get("as_of"), "projects": out}
+    if failed:
+        res["stale_projects"] = failed
+    path = os.path.join(DATA, "projects.json")
+    tmp = path + ".tmp"
+    with open(tmp, "w") as f:
+        json.dump(res, f, indent=1)
+    os.replace(tmp, path)
+    log("wrote %d projects (%d kept from previous run)" % (len(out), len(failed)))
+
+
+def refresh_project(s, prev, snap):
+        check_deadline()
         p = dict(s)
-        log("[%d/%d] %s" % (i + 1, len(seed), p["name"]))
         disc = (prev.get(p["name"]) or {}).get("discovered")
         if disc is None or os.environ.get("REDISCOVER"):
             disc = discover(p.get("listing_url"))
@@ -322,13 +407,13 @@ def main():
         p["status"], p["status_reason"] = classify(p)
         p["checkpoints"] = {str(n): checkpoint(p, n) for n in CHECKPOINTS}
         p["survival"] = survival(p)
-        out.append(p)
-    res = {"generated_at": NOW.replace(microsecond=0).isoformat(), "rules_version": 1,
-           "x_snapshot_as_of": snap.get("as_of"), "projects": out}
-    with open(os.path.join(DATA, "projects.json"), "w") as f:
-        json.dump(res, f, indent=1)
-    log("wrote %d projects" % len(out))
+        return p
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        # Never fail the workflow on transient errors: previous data/projects.json stays in place.
+        log("WARNING: refresh failed (%s: %s); keeping previous data" % (type(e).__name__, e))
+    sys.exit(0)
