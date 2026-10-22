@@ -10,23 +10,29 @@ concurrency:
   cancel-in-progress: false
 jobs:
   refresh:
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
+    runs-on: ubuntu-24.04   # pinned: ubuntu-latest is migrating to 26.04 (Oct 19 - Nov 19, 2026)
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        timeout-minutes: 3
       - uses: actions/setup-python@v5
+        timeout-minutes: 3
         with:
           python-version: "3.12"
       - name: Run refresh
+        timeout-minutes: 22
         env:
+          REFRESH_BUDGET_S: "1200"   # script stops starting new work after 20 min and keeps previous data
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}       # optional; only used for API fallback
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}   # optional; empty if not configured
         run: python scripts/refresh.py
       - name: Commit updated data
+        timeout-minutes: 3
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/projects.json
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "data: nightly refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --autostash || true
           git push
