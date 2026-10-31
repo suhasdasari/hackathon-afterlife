@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T13:03:24+00:00",
+ "generated_at": "2026-10-31T12:41:06+00:00",
  "rules_version": 1,
  "x_snapshot_as_of": "2026-10-20T19:27:00Z",
  "projects": [
@@ -27,7 +27,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 44,
+   "days_since_demo": 45,
    "signals": {
     "github": {
      "status": "checked",
@@ -81,7 +81,7 @@
     "180": "pending"
    },
    "survival": {
-    "t": 44,
+    "t": 45,
     "event": 0
    }
   },
@@ -109,16 +109,16 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 44,
+   "days_since_demo": 45,
    "signals": {
     "github": {
      "status": "checked",
      "repo": "https://github.com/jb1011/Project-Alpha",
-     "last_commit": "2026-10-30T11:01:11+00:00",
+     "last_commit": "2026-10-31T00:11:32+00:00",
      "first_commit": "2026-06-23T11:55:32+00:00",
-     "commits_total": 350,
-     "commits_after_demo": 77,
-     "commits_last_30d": 48,
+     "commits_total": 356,
+     "commits_after_demo": 83,
+     "commits_last_30d": 52,
      "windows": {
       "30": {
        "reached": true,
@@ -164,7 +164,7 @@
     "180": "pending"
    },
    "survival": {
-    "t": 44,
+    "t": 45,
     "event": 0
    }
   },
@@ -192,7 +192,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 44,
+   "days_since_demo": 45,
    "signals": {
     "github": {
      "status": "checked",
@@ -275,7 +275,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 44,
+   "days_since_demo": 45,
    "signals": {
     "github": {
      "status": "checked",
@@ -358,7 +358,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 44,
+   "days_since_demo": 45,
    "signals": {
     "github": {
      "status": "checked",
@@ -441,7 +441,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 44,
+   "days_since_demo": 45,
    "signals": {
     "github": {
      "status": "checked",
@@ -524,7 +524,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 44,
+   "days_since_demo": 45,
    "signals": {
     "github": {
      "status": "checked",
@@ -607,7 +607,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 44,
+   "days_since_demo": 45,
    "signals": {
     "github": {
      "status": "checked",
@@ -690,7 +690,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 33,
+   "days_since_demo": 34,
    "signals": {
     "github": {
      "status": "checked",
@@ -773,7 +773,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 33,
+   "days_since_demo": 34,
    "signals": {
     "github": {
      "status": "checked",
@@ -856,7 +856,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 33,
+   "days_since_demo": 34,
    "signals": {
     "github": {
      "status": "checked",
@@ -939,7 +939,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 33,
+   "days_since_demo": 34,
    "signals": {
     "github": {
      "status": "checked",
@@ -986,16 +986,16 @@
      "status": "none recorded"
     }
    },
-   "status": "active",
-   "status_reason": "Public activity in last 30 days",
+   "status": "recent",
+   "status_reason": "Last public activity 31-90 days ago",
    "checkpoints": {
     "30": "active",
     "90": "pending",
     "180": "pending"
    },
    "survival": {
-    "t": 33,
-    "event": 0
+    "t": 32,
+    "event": 1
    }
   },
   {
@@ -1022,7 +1022,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 33,
+   "days_since_demo": 34,
    "signals": {
     "github": {
      "status": "checked",
@@ -1105,7 +1105,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 33,
+   "days_since_demo": 34,
    "signals": {
     "github": {
      "status": "checked",
@@ -1188,7 +1188,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 33,
+   "days_since_demo": 34,
    "signals": {
     "github": {
      "status": "checked",
@@ -1271,7 +1271,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 33,
+   "days_since_demo": 34,
    "signals": {
     "github": {
      "status": "checked",
@@ -1355,7 +1355,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 96,
+   "days_since_demo": 97,
    "signals": {
     "github": {
      "status": "checked",
@@ -1439,7 +1439,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 96,
+   "days_since_demo": 97,
    "signals": {
     "github": {
      "status": "checked",
@@ -1493,7 +1493,7 @@
     "180": "pending"
    },
    "survival": {
-    "t": 96,
+    "t": 97,
     "event": 0
    }
   },
@@ -1522,7 +1522,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 96,
+   "days_since_demo": 97,
    "signals": {
     "github": {
      "status": "checked",
@@ -1606,7 +1606,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 96,
+   "days_since_demo": 97,
    "signals": {
     "github": {
      "status": "checked",
@@ -1690,7 +1690,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 96,
+   "days_since_demo": 97,
    "signals": {
     "github": {
      "status": "checked",
@@ -1745,7 +1745,7 @@
     "180": "pending"
    },
    "survival": {
-    "t": 96,
+    "t": 97,
     "event": 0
    }
   },
@@ -1774,7 +1774,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 96,
+   "days_since_demo": 97,
    "signals": {
     "github": {
      "status": "checked",
@@ -1857,14 +1857,14 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 96,
+   "days_since_demo": 97,
    "signals": {
     "github": {
      "status": "checked",
      "repo": "https://github.com/ethui/ethui",
      "last_commit": "2026-07-30T13:58:00+00:00",
-     "first_commit": "2023-02-11T19:22:02+00:00",
-     "commits_total": 1610,
+     "first_commit": "2025-02-24T22:02:57+00:00",
+     "commits_total": 500,
      "commits_after_demo": 2,
      "commits_last_30d": 0,
      "windows": {
@@ -1941,7 +1941,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 96,
+   "days_since_demo": 97,
    "signals": {
     "github": {
      "status": "checked",
@@ -2025,7 +2025,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 96,
+   "days_since_demo": 97,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2088,7 +2088,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 96,
+   "days_since_demo": 97,
    "signals": {
     "github": {
      "status": "checked",
@@ -2165,7 +2165,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 18,
+   "days_since_demo": 19,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2221,7 +2221,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 18,
+   "days_since_demo": 19,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2277,7 +2277,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 15,
+   "days_since_demo": 16,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2332,7 +2332,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 15,
+   "days_since_demo": 16,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2387,7 +2387,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 15,
+   "days_since_demo": 16,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2445,7 +2445,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 15,
+   "days_since_demo": 16,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2500,7 +2500,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 64,
+   "days_since_demo": 65,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2556,7 +2556,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 64,
+   "days_since_demo": 65,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2609,7 +2609,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 64,
+   "days_since_demo": 65,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2665,7 +2665,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 64,
+   "days_since_demo": 65,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2718,7 +2718,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 64,
+   "days_since_demo": 65,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2772,7 +2772,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 64,
+   "days_since_demo": 65,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2828,7 +2828,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 64,
+   "days_since_demo": 65,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2881,7 +2881,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 64,
+   "days_since_demo": 65,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2937,7 +2937,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 64,
+   "days_since_demo": 65,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2993,7 +2993,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 64,
+   "days_since_demo": 65,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3046,7 +3046,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 64,
+   "days_since_demo": 65,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3102,7 +3102,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 64,
+   "days_since_demo": 65,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3158,7 +3158,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 64,
+   "days_since_demo": 65,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3214,7 +3214,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 22,
+   "days_since_demo": 23,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3269,7 +3269,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 22,
+   "days_since_demo": 23,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3324,7 +3324,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 22,
+   "days_since_demo": 23,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3379,7 +3379,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 22,
+   "days_since_demo": 23,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3433,7 +3433,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 22,
+   "days_since_demo": 23,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3488,7 +3488,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 22,
+   "days_since_demo": 23,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3541,7 +3541,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 22,
+   "days_since_demo": 23,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3594,7 +3594,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 36,
+   "days_since_demo": 37,
    "signals": {
     "github": {
      "status": "checked",
@@ -3680,7 +3680,7 @@
     "x_handle": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 126,
+   "days_since_demo": 127,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3748,7 +3748,7 @@
     "x_handle": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 126,
+   "days_since_demo": 127,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3816,7 +3816,7 @@
     "x_handle": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 126,
+   "days_since_demo": 127,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3887,7 +3887,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 126,
+   "days_since_demo": 127,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3952,7 +3952,7 @@
     "x_handle": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 126,
+   "days_since_demo": 127,
    "signals": {
     "github": {
      "status": "checked",
