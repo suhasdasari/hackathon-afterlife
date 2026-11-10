@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T16:30:15+00:00",
+ "generated_at": "2026-11-10T14:58:19+00:00",
  "rules_version": 1,
  "x_snapshot_as_of": "2026-10-20T19:27:00Z",
  "projects": [
@@ -27,7 +27,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 54,
+   "days_since_demo": 55,
    "signals": {
     "github": {
      "status": "checked",
@@ -81,7 +81,7 @@
     "180": "pending"
    },
    "survival": {
-    "t": 54,
+    "t": 55,
     "event": 0
    }
   },
@@ -109,16 +109,16 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 54,
+   "days_since_demo": 55,
    "signals": {
     "github": {
      "status": "checked",
      "repo": "https://github.com/jb1011/Project-Alpha",
-     "last_commit": "2026-11-09T13:36:35+00:00",
+     "last_commit": "2026-11-10T12:48:05+00:00",
      "first_commit": "2026-06-23T11:55:32+00:00",
-     "commits_total": 371,
-     "commits_after_demo": 98,
-     "commits_last_30d": 53,
+     "commits_total": 379,
+     "commits_after_demo": 106,
+     "commits_last_30d": 61,
      "windows": {
       "30": {
        "reached": true,
@@ -164,7 +164,7 @@
     "180": "pending"
    },
    "survival": {
-    "t": 54,
+    "t": 55,
     "event": 0
    }
   },
@@ -192,7 +192,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 54,
+   "days_since_demo": 55,
    "signals": {
     "github": {
      "status": "checked",
@@ -275,7 +275,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 54,
+   "days_since_demo": 55,
    "signals": {
     "github": {
      "status": "checked",
@@ -358,7 +358,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 54,
+   "days_since_demo": 55,
    "signals": {
     "github": {
      "status": "checked",
@@ -441,7 +441,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 54,
+   "days_since_demo": 55,
    "signals": {
     "github": {
      "status": "checked",
@@ -524,7 +524,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 54,
+   "days_since_demo": 55,
    "signals": {
     "github": {
      "status": "checked",
@@ -607,7 +607,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 54,
+   "days_since_demo": 55,
    "signals": {
     "github": {
      "status": "checked",
@@ -690,7 +690,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 43,
+   "days_since_demo": 44,
    "signals": {
     "github": {
      "status": "checked",
@@ -745,7 +745,7 @@
     "180": "pending"
    },
    "survival": {
-    "t": 43,
+    "t": 44,
     "event": 0
    }
   },
@@ -773,7 +773,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 43,
+   "days_since_demo": 44,
    "signals": {
     "github": {
      "status": "checked",
@@ -828,7 +828,7 @@
     "180": "pending"
    },
    "survival": {
-    "t": 43,
+    "t": 44,
     "event": 0
    }
   },
@@ -856,7 +856,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 43,
+   "days_since_demo": 44,
    "signals": {
     "github": {
      "status": "checked",
@@ -939,7 +939,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 43,
+   "days_since_demo": 44,
    "signals": {
     "github": {
      "status": "checked",
@@ -1022,7 +1022,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 43,
+   "days_since_demo": 44,
    "signals": {
     "github": {
      "status": "checked",
@@ -1105,7 +1105,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 43,
+   "days_since_demo": 44,
    "signals": {
     "github": {
      "status": "checked",
@@ -1188,7 +1188,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 43,
+   "days_since_demo": 44,
    "signals": {
     "github": {
      "status": "checked",
@@ -1271,7 +1271,7 @@
    "link_sources": {
     "repo": "listing page"
    },
-   "days_since_demo": 43,
+   "days_since_demo": 44,
    "signals": {
     "github": {
      "status": "checked",
@@ -1326,7 +1326,7 @@
     "180": "pending"
    },
    "survival": {
-    "t": 43,
+    "t": 44,
     "event": 0
    }
   },
@@ -1355,7 +1355,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 106,
+   "days_since_demo": 107,
    "signals": {
     "github": {
      "status": "checked",
@@ -1439,7 +1439,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 106,
+   "days_since_demo": 107,
    "signals": {
     "github": {
      "status": "checked",
@@ -1493,7 +1493,7 @@
     "180": "pending"
    },
    "survival": {
-    "t": 106,
+    "t": 107,
     "event": 0
    }
   },
@@ -1522,7 +1522,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 106,
+   "days_since_demo": 107,
    "signals": {
     "github": {
      "status": "checked",
@@ -1606,7 +1606,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 106,
+   "days_since_demo": 107,
    "signals": {
     "github": {
      "status": "checked",
@@ -1690,7 +1690,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 106,
+   "days_since_demo": 107,
    "signals": {
     "github": {
      "status": "checked",
@@ -1745,7 +1745,7 @@
     "180": "pending"
    },
    "survival": {
-    "t": 106,
+    "t": 107,
     "event": 0
    }
   },
@@ -1774,7 +1774,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 106,
+   "days_since_demo": 107,
    "signals": {
     "github": {
      "status": "checked",
@@ -1857,7 +1857,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 106,
+   "days_since_demo": 107,
    "signals": {
     "github": {
      "status": "checked",
@@ -1941,7 +1941,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 106,
+   "days_since_demo": 107,
    "signals": {
     "github": {
      "status": "checked",
@@ -2025,7 +2025,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 106,
+   "days_since_demo": 107,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2088,7 +2088,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 106,
+   "days_since_demo": 107,
    "signals": {
     "github": {
      "status": "checked",
@@ -2165,7 +2165,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 28,
+   "days_since_demo": 29,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2221,7 +2221,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 28,
+   "days_since_demo": 29,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2277,7 +2277,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 25,
+   "days_since_demo": 26,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2332,7 +2332,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 25,
+   "days_since_demo": 26,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2387,7 +2387,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 25,
+   "days_since_demo": 26,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2445,7 +2445,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 25,
+   "days_since_demo": 26,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2500,7 +2500,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 74,
+   "days_since_demo": 75,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2556,7 +2556,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 74,
+   "days_since_demo": 75,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2609,7 +2609,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 74,
+   "days_since_demo": 75,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2665,7 +2665,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 74,
+   "days_since_demo": 75,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2718,7 +2718,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 74,
+   "days_since_demo": 75,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2772,7 +2772,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 74,
+   "days_since_demo": 75,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2828,7 +2828,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 74,
+   "days_since_demo": 75,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2881,7 +2881,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 74,
+   "days_since_demo": 75,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2937,7 +2937,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 74,
+   "days_since_demo": 75,
    "signals": {
     "github": {
      "status": "unknown",
@@ -2993,7 +2993,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 74,
+   "days_since_demo": 75,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3046,7 +3046,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 74,
+   "days_since_demo": 75,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3102,7 +3102,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 74,
+   "days_since_demo": 75,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3158,7 +3158,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 74,
+   "days_since_demo": 75,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3214,7 +3214,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 32,
+   "days_since_demo": 33,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3269,7 +3269,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 32,
+   "days_since_demo": 33,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3324,7 +3324,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 32,
+   "days_since_demo": 33,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3379,7 +3379,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 32,
+   "days_since_demo": 33,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3433,7 +3433,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 32,
+   "days_since_demo": 33,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3488,7 +3488,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 32,
+   "days_since_demo": 33,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3541,7 +3541,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 32,
+   "days_since_demo": 33,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3594,7 +3594,7 @@
    "token_address": null,
    "contract": null,
    "discovered": {},
-   "days_since_demo": 46,
+   "days_since_demo": 47,
    "signals": {
     "github": {
      "status": "checked",
@@ -3680,7 +3680,7 @@
     "x_handle": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 136,
+   "days_since_demo": 137,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3748,7 +3748,7 @@
     "x_handle": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 136,
+   "days_since_demo": 137,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3816,7 +3816,7 @@
     "x_handle": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 136,
+   "days_since_demo": 137,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3887,7 +3887,7 @@
     "repo": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 136,
+   "days_since_demo": 137,
    "signals": {
     "github": {
      "status": "unknown",
@@ -3952,7 +3952,7 @@
     "x_handle": "listing page",
     "website": "listing page"
    },
-   "days_since_demo": 136,
+   "days_since_demo": 137,
    "signals": {
     "github": {
      "status": "checked",
